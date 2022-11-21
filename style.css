@@ -1,4 +1,38 @@
-* { margin:0px;
-    padding :0px;}
- 
-h2 { color:red;}    
+*{ padding:0px;
+   margin:0px;
+}
+
+/* nav bar codding start */
+
+nav { 
+      align-items: center;
+      background-color: rgb(3, 3, 189);
+      justify-content: space-between;}
+
+.prent-nav {padding:0px 30px;
+            justify-content: space-between;
+            display: flex;
+            align-items: center; }  
+
+ .navbar-logo h4{ color:white;
+                 font-size:20px;
+                 letter-spacing:3px;}   
+                 
+.navbar-logo > h4 > span{ color:greenyellow;}                
+
+.prent-nav > ul { display:flex;}         
+            
+.prent-nav > ul > li { list-style-type: none;
+                       margin:7px 3px;
+                       border-radius:3px;  
+                       transition:0.5s;
+                       padding:3px 5px;}           
+
+.prent-nav > ul > li > a {text-decoration: none;
+                          color:white;
+                          font-weight:bold;}
+
+.prent-nav > ul > li:hover{ color:blue;
+                            background-color: rgb(122, 122, 252);
+
+                            }                          
