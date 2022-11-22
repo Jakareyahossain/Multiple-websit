@@ -35,4 +35,31 @@ nav {
 .prent-nav > ul > li:hover{ color:blue;
                             background-color: rgb(122, 122, 252);
 
-                            }                          
+                            } 
+                            
+   /* hero area codding started     */
+
+.hero-area { background-image: url(./photo/website\ banner.jpg);
+                                   height: 260px;
+                                   background-size: cover;
+                                   background-repeat: no-repeat;
+                                   } 
+                                   
+.hero-area-prent{ display:flex;
+                  padding-top:105px;
+                  justify-content: center;} 
+                  
+.hero-area-prent > input { width:240px;
+                           padding:0px 4px;
+                           border: none;
+                           height:25px;}  
+                           
+.search-icon i{   font-size: 17px;
+                  display: flex;
+                  background-color: green;
+                  padding: 5px;
+                  color: red;
+                  margin-left: -1px;
+             }                           
+                  
+                  
