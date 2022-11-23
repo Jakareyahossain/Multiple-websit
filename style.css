@@ -19,7 +19,7 @@ nav {
                  font-size:20px;
                  letter-spacing:3px;}   
                  
-.navbar-logo > h4 > span{ color:#02ff02;}                
+.navbar-logo > h4 > span{ color:red;}                
 
 .prent-nav > ul { display:flex;}         
             
