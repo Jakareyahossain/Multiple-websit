@@ -15,11 +15,11 @@ nav {
             display: flex;
             align-items: center; }  
 
- .navbar-logo h4{ color:blue;
+ .navbar-logo h4{ color:rgb(252, 238, 238);
                  font-size:20px;
                  letter-spacing:3px;}   
                  
-.navbar-logo > h4 > span{ color:red;}                
+.navbar-logo > h4 > span{ color:#02ff02;}                
 
 .prent-nav > ul { display:flex;}         
             
