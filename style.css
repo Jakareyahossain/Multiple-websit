@@ -106,6 +106,7 @@ nav {
 
 .main-sec-section { width:705px;
                     margin:auto;
+                    padding-bottom:30px;
                     }  
 
 .second-sec-prent {display:grid;
@@ -131,5 +132,94 @@ nav {
                  
 .img-text-prent {font-size:10px;
                  color:#cfcece;
-                 padding-bottom:10px;}                 
+                 padding-bottom:10px;}  
+                 
+           /* third section code sterted    */
+
+.main-third-sec{ width:705px;
+                 margin:auto;
+                 padding:50px;}           
+
+.prent-third-sec {display:flex;
+                  justify-content: space-between;}           
+
+.previous-text{ background-color:#20D330;
+                color:#e3e3e7;
+                padding:2px 6px;
+                cursor:pointer;
+                font-size: 14px;
+                border-radius:1px;} 
+
+.namber-text > h4 > span{margin:0px 5px;
+                         background-color:white;
+                         color:#9e9191;
+                         padding:1px 2px;
+                         cursor:pointer;
+                         border-radius:2px;}     
+                         
+ .namber-text > h4 >.one-text {background-color:#20D330;
+                               color:#e3e3e7;}   
+                               
+.next-text {background-color:#20D330;
+            color:#e3e3e7;
+            padding:2px 6px;
+            cursor:pointer;
+            font-size: 14px;
+            border-radius:1px;}                               
+
+       /* footer code sterted           */
+
+footer { background-color:#803181;}       
+
+.main-footer { width:600px;
+               padding-top:45px;
+               padding-bottom:50px;
+               margin:auto;
+               color:#e6dada;
+               
+               }      
+               
+.prent-footer { display:flex;
+                }      
+                
+.footer-fast-text { width:200px;
+                    }  
+                    
+.footer-fast-text > h4 { color:white;
+                         padding-bottom:15px;}   
+                         
+.footer-fast-text p{ padding-bottom: 40px;
+                     padding-right:17px;
+                     font-size: 14px;}      
+                     
+.footer-fast-text h6 { font-size: 13px;}                     
+
+.footer-second-text { width:200px;
+                     }
+
+.footer-second-text h4 {color:white;
+                        padding-bottom:15px; }
+
+.footer-second-text > p  {padding-bottom:5px;}                       
+                        
+.footer-second-text > p > a{ text-decoration: none;
+                             color:#e6dada;
+                             font-size: 14px;
+                             }                         
+
+.footer-third-text { width:200px;
+                     }
+
+.footer-third-text i{ color:white;
+                      padding:5px 4px;
+                      margin-right:6px;
+                      background-color:black;
+                      margin-bottom: 15px;
+                      } 
+                      
+.footer-third-text  p{ font-size:14px;
+                       padding-bottom:5px;}  
+
+.footer-third-text  h5{padding-top:55px;}
+
 
