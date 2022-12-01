@@ -1,0 +1,96 @@
+* { padding:0px;
+    margin:0px;}
+
+    /* contact page started */
+
+    /* nav code sterted  */
+
+    nav { 
+        /* align-items: center; */
+        background-color:#452169;
+        justify-content: space-between;
+        border-bottom:2px solid 5a387c;
+        position:sticky;
+        top:0;}
+  
+  .prent-nav {padding:0px 30px;
+              justify-content: space-between;
+              display: flex;
+              align-items: center; }  
+  
+   .navbar-logo h4{ color:rgb(252, 238, 238);
+                   font-size:20px;
+                   letter-spacing:3px;}   
+                   
+  .navbar-logo > h4 > span{ color:#02ff02;}                
+  
+  .prent-nav > ul { display:flex;}         
+              
+  .prent-nav > ul > li { list-style-type: none;
+                         margin:7px 3px;
+                         border-radius:3px;  
+                         transition:0.5s;
+                         padding:3px 5px;}           
+  
+  .prent-nav > ul > li > a {text-decoration: none;
+                            color:white;
+                            font-weight:bold;}
+  
+  .prent-nav > ul > li:hover{ 
+                              background-color:#fddddc;
+  
+                              } 
+  .prent-nav > ul > li a:hover{ color:#ff4842; }                            
+      
+
+              /* form code started  */
+
+form { box-shadow:10px 10px 10px 5px #cfcece;
+       margin:auto;
+       width:500px;
+       margin-top:70px;
+       background-color:#f7bdc6;}   
+       
+.form-title { text-align: center;
+              margin-bottom:15px;
+              font-size:18px;
+              padding-top:30px;}          
+        
+
+.name-email-text input{ border:none;
+                        display:block;
+                        margin:auto;
+                        font-size:12px;
+                        width:220px;
+                        margin-bottom:15px;
+                        border-radius:20px;
+                        color:#363636;
+                        padding:5px 14px;
+                          
+                   }              
+                  
+                   
+.name-email-text > textarea {display:block;
+                             margin:auto;
+                             width:315px;
+                             border:none;
+                             height:185px;
+                             border-radius:10px;
+                             padding:10px 14px;} 
+
+.btn {margin-top:20px;
+      padding-bottom:25px;}                            
+                             
+.btn input{ margin:auto;
+            width:180px;
+            background:linear-gradient(to left, #5b5bfd, #f74f4f, #05fd05);
+            padding:5px 0px;
+            color:white;
+            border:none;
+            border-radius:20px;
+            display:block;}                             
+                             
+                             
+              
+
+                      
