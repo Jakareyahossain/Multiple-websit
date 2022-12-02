@@ -1,0 +1,138 @@
+* { margin:0px;
+    padding:0px;}
+
+    nav { 
+        
+        background-color:#452169;
+        justify-content: space-between;
+        border-bottom:2px solid #8d68b3;
+        position:sticky;
+        top:0;}
+  
+  .prent-nav {padding:0px 30px;
+              justify-content: space-between;
+              display: flex;
+              align-items: center; }  
+  
+   .navbar-logo h4{ color:rgb(252, 238, 238);
+                   font-size:20px;
+                   letter-spacing:3px;}   
+                   
+  .navbar-logo > h4 > span{ color:#02ff02;}                
+  
+  .prent-nav > ul { display:flex;}         
+              
+  .prent-nav > ul > li { list-style-type: none;
+                         margin:7px 3px;
+                         border-radius:3px;  
+                         transition:0.5s;
+                         padding:3px 5px;}           
+  
+  .prent-nav > ul > li > a {text-decoration: none;
+                            color:white;
+                            font-weight:bold;}
+  
+  .prent-nav > ul > li:hover{ 
+                              background-color:#fddddc;
+  
+                              } 
+  .prent-nav > ul > li a:hover{ color:#ff4842; }                            
+  
+            /* section code started      */
+
+.about-main { width:550px;
+              padding:30px;
+              box-shadow: 5px 5px 5px 10px #d4d3d3;
+              margin-top: 50px;
+              margin:90px auto 0px auto;
+              } 
+              
+.about-prent { width:100%;
+               margin-top:70px;
+               
+              
+               display:flex;
+              
+               justify-content: space-between;}    
+               
+.about-img  { 
+              width:100%;}           
+
+.about-img  img{ width:300px;
+                 border:none;
+                 height:250px;}
+
+.about-text { 
+              width:100%;}   
+              
+.about-text  P { padding:8px 0px 70px 0px;
+                 color:#414141;}            
+                 
+.about-text h3 { font-size: 30px;
+                  color:#2525bd;
+                  line-height: 42px;}  
+                  
+.btn  a{ background-color:#2525bd;
+       display:inline-block;
+       color:#f7f3f3;
+       font-size: 12px;
+       border-radius: 4px;
+       text-decoration: none;
+       padding:3px 6px;}      
+       
+       /* footer code sterted           */
+
+       footer { background-color:#803181;
+                margin-top: 70px;}       
+
+.main-footer { width:600px;
+              padding-top:45px;
+              padding-bottom:50px;
+              margin:auto;
+              color:#e6dada;
+              
+              }      
+              
+.prent-footer { display:flex;
+               }      
+               
+.footer-fast-text { width:200px;
+                   }  
+                   
+.footer-fast-text > h4 { color:white;
+                        padding-bottom:15px;}   
+                        
+.footer-fast-text p{ padding-bottom: 40px;
+                    padding-right:17px;
+                    font-size: 14px;}      
+                    
+.footer-fast-text h6 { font-size: 13px;}                     
+
+.footer-second-text { width:200px;
+                    }
+
+.footer-second-text h4 {color:white;
+                       padding-bottom:15px; }
+
+.footer-second-text > p  {padding-bottom:5px;}                       
+                       
+.footer-second-text > p > a{ text-decoration: none;
+                            color:#e6dada;
+                            font-size: 14px;
+                            }                         
+
+.footer-third-text { width:200px;
+                    }
+
+.footer-third-text i{ color:white;
+                     padding:5px 4px;
+                     margin-right:6px;
+                     background-color:black;
+                     margin-bottom: 15px;
+                     } 
+                     
+.footer-third-text  p{ font-size:14px;
+                      padding-bottom:5px;}  
+
+.footer-third-text  h5{padding-top:55px;}
+     

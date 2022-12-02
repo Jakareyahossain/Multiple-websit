@@ -9,7 +9,7 @@
         /* align-items: center; */
         background-color:#452169;
         justify-content: space-between;
-        border-bottom:2px solid 5a387c;
+        border-bottom:2px solid #8d68b3;
         position:sticky;
         top:0;}
   
@@ -48,12 +48,14 @@
 form { box-shadow:10px 10px 10px 5px #cfcece;
        margin:auto;
        width:500px;
-       margin-top:70px;
+       margin-top:50px;
        background-color:#f7bdc6;}   
        
 .form-title { text-align: center;
               margin-bottom:15px;
-              font-size:18px;
+              color:#0707c4;
+              
+              font-size:20px;
               padding-top:30px;}          
         
 
@@ -74,7 +76,7 @@ form { box-shadow:10px 10px 10px 5px #cfcece;
                              margin:auto;
                              width:315px;
                              border:none;
-                             height:185px;
+                             height:150px;
                              border-radius:10px;
                              padding:10px 14px;} 
 
@@ -86,11 +88,68 @@ form { box-shadow:10px 10px 10px 5px #cfcece;
             background:linear-gradient(to left, #5b5bfd, #f74f4f, #05fd05);
             padding:5px 0px;
             color:white;
+            cursor: pointer;
             border:none;
             border-radius:20px;
             display:block;}                             
                              
+       /* footer code sterted           */
+
+       footer { background-color:#803181;
+                margin-top: 70px;}       
+
+       .main-footer { width:600px;
+                      padding-top:45px;
+                      padding-bottom:50px;
+                      margin:auto;
+                      color:#e6dada;
+                      
+                      }      
+                      
+       .prent-footer { display:flex;
+                       }      
+                       
+       .footer-fast-text { width:200px;
+                           }  
+                           
+       .footer-fast-text > h4 { color:white;
+                                padding-bottom:15px;}   
+                                
+       .footer-fast-text p{ padding-bottom: 40px;
+                            padding-right:17px;
+                            font-size: 14px;}      
+                            
+       .footer-fast-text h6 { font-size: 13px;}                     
+       
+       .footer-second-text { width:200px;
+                            }
+       
+       .footer-second-text h4 {color:white;
+                               padding-bottom:15px; }
+       
+       .footer-second-text > p  {padding-bottom:5px;}                       
+                               
+       .footer-second-text > p > a{ text-decoration: none;
+                                    color:#e6dada;
+                                    font-size: 14px;
+                                    }                         
+       
+       .footer-third-text { width:200px;
+                            }
+       
+       .footer-third-text i{ color:white;
+                             padding:5px 4px;
+                             margin-right:6px;
+                             background-color:black;
+                             margin-bottom: 15px;
+                             } 
                              
+       .footer-third-text  p{ font-size:14px;
+                              padding-bottom:5px;}  
+       
+       .footer-third-text  h5{padding-top:55px;}
+       
+                                    
               
 
                       
